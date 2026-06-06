@@ -1,59 +1,43 @@
-# ♟ GRANDMASTER — 3D Chess
+♟️ Grandmaster 3D Chess
 
-A premium AAA-level 3D chess game built with Three.js.
+A fully immersive 3D chess game built with Three.js + custom chess engine, featuring cinematic visuals, smooth animations, AI opponent, and premium UI/UX design.
 
-## How to Run
+🚀 Live Demo: https://chess-sepia-nine.vercel.app/
 
-### Option 1 — Open directly (recommended for Chrome/Firefox)
-Just double-click `index.html` — it loads from CDN, no server needed.
-
-### Option 2 — Local server (if CORS issues)
-```bash
-# Python 3
-python3 -m http.server 8080
-# Then open: http://localhost:8080
-```
-
-### Option 3 — VS Code Live Server
-Install the "Live Server" extension, right-click `index.html` → Open with Live Server.
-
----
-
-## Controls
-
-| Action | Control |
-|--------|---------|
-| Select piece | Left click |
-| Move piece | Click destination |
-| Rotate camera | Right-click drag |
-| Zoom | Scroll wheel |
-| Touch rotate | 1-finger drag |
-| Touch zoom | Pinch |
-
-## Features
-
-- ✅ Full chess rules (all pieces, castling, en passant, promotion)
-- ✅ Check, checkmate, stalemate detection
-- ✅ 3D board with Three.js + realistic lighting & shadows
-- ✅ Smooth piece movement animations with arc tweening
-- ✅ Check glow (red pulse on king square)
-- ✅ Move hints (dots for empty, rings for captures)
-- ✅ Last move trail highlight
-- ✅ Move history sidebar with algebraic notation
-- ✅ Undo/Redo system
-- ✅ Flip board
-- ✅ Captured pieces panel with material score
-- ✅ AI opponent (4 difficulty levels, Minimax + Alpha-Beta)
-- ✅ Cinematic camera on checkmate
-- ✅ 3 board themes: Royal (blue/gold), Neon (teal/dark), Wood
-- ✅ Ambient particle effects
-- ✅ Sound effects (move, capture, check, checkmate, castle)
-- ✅ Pawn promotion dialog
-- ✅ Glassmorphism UI panels
-- ✅ Touch / mobile support
-
-## Tech Stack
-- Three.js r128 (3D rendering)
-- Tween.js 18.6 (smooth animations)
-- Pure JavaScript chess engine (no library dependency)
-- Minimax with Alpha-Beta pruning for AI
+✨ Features
+🎮 Core Gameplay
+Fully playable standard chess rules
+Legal move validation for all pieces
+Check, checkmate, stalemate detection
+Castling, en passant, pawn promotion
+Move history with algebraic notation
+🧠 AI Opponent
+Minimax-based chess engine
+Adjustable difficulty levels
+Position evaluation using piece-square tables
+Play vs computer mode
+🎨 3D Visual Experience
+Fully rendered 3D chessboard using Three.js
+Smooth camera controls (rotate / zoom / pan)
+Procedural 3D chess pieces (no external assets)
+Real-time lighting, shadows, and glow effects
+Cinematic move animations (arc transitions)
+💎 UI / UX Design
+Glassmorphism-based modern UI
+Dark premium theme (gold + deep navy accents)
+Highlighted legal moves & last move trail
+Check indicator with red glow effect
+Move history sidebar + captured pieces panel
+🔊 Audio & Effects
+Web Audio API based sound effects:
+Piece move
+Capture
+Check / Checkmate
+Subtle ambient background effects
+Smooth animation transitions
+🛠️ Tech Stack
+HTML5 / CSS3 / JavaScript
+Three.js (3D rendering)
+Chess engine (custom JS logic or chess rules engine)
+Web Audio API
+Vercel (deployment)
